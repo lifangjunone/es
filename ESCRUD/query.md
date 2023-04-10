@@ -79,3 +79,7 @@
       }
     }
 ```
+3. 单条数据通过 _id　查询
+- method:　GET
+- url: http://127.0.0.1:9200/shopping/_doc/{_id}
+- url: http://127.0.0.1:9200/shopping/_doc/pEwbaYcBwDNBeR_zNnwP

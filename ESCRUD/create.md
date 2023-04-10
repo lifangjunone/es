@@ -15,7 +15,7 @@
 #### 方式二（指定　_id）
 ##### 创建地址
 - method: POST/PUT 幂等性，有则更新无则创建
-- url: http://127.0.0.1:9200/shopping/_doc/[_id]
+- url: http://127.0.0.1:9200/shopping/_doc/{_id}
 - 示例：http://127.0.0.1:9200/shopping/_doc/00001
 ##### 参数
 ```json
